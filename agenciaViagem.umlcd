@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_DqWZ8EmoEeyv66jf5svUbg">
+  <modelElement href="agenciaViagem.uml#_EMvVUEmoEeyv66jf5svUbg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GMip4EmoEeyv66jf5svUbg" name="italoViana">
+    <modelElement href="agenciaViagem.uml#_ENXncEmoEeyv66jf5svUbg"/>
+    <visualProperties xmi:id="_GMip4UmoEeyv66jf5svUbg" position="80.0,251.0" size="234.0,97.0"/>
+    <visibility xmi:id="_GMip4kmoEeyv66jf5svUbg" label="+"/>
+    <operations xmi:id="_GMip40moEeyv66jf5svUbg" name="main" staticOperation="true">
+      <modelElement href="agenciaViagem.uml#_ENY1kEmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GMip5EmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GMip5UmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GMip5kmoEeyv66jf5svUbg" name="args">
+        <modelElement href="agenciaViagem.uml#_ENZcoEmoEeyv66jf5svUbg"/>
+        <cardinality xmi:id="_GMip50moEeyv66jf5svUbg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_GMip6EmoEeyv66jf5svUbg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GO9EsEmoEeyv66jf5svUbg" name="Passagem">
+    <modelElement href="agenciaViagem.uml#_ENDeYEmoEeyv66jf5svUbg"/>
+    <visualProperties xmi:id="_GO9EsUmoEeyv66jf5svUbg" position="83.0,31.0" size="489.0,199.0"/>
+    <visibility xmi:id="_GO9EskmoEeyv66jf5svUbg" label="+"/>
+    <attributes xmi:id="_GO9Es0moEeyv66jf5svUbg" name="destino">
+      <modelElement href="agenciaViagem.uml#_EN1hgEmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GO9rwEmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9rwUmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <type xmi:id="_GO9rwkmoEeyv66jf5svUbg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GO9rw0moEeyv66jf5svUbg" name="valor">
+      <modelElement href="agenciaViagem.uml#_EN3WsEmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GO9rxEmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9rxUmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <type xmi:id="_GO9rxkmoEeyv66jf5svUbg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GO9rx0moEeyv66jf5svUbg" name="taxa">
+      <modelElement href="agenciaViagem.uml#_EN39wEmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GO9ryEmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9ryUmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <type xmi:id="_GO9rykmoEeyv66jf5svUbg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GO9ry0moEeyv66jf5svUbg" name="cliente">
+      <modelElement href="agenciaViagem.uml#_EN5L4EmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GO9rzEmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9rzUmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <type xmi:id="_GO9rzkmoEeyv66jf5svUbg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GO9rz0moEeyv66jf5svUbg" name="cadastrar">
+      <modelElement href="agenciaViagem.uml#_ENNPYEmoEeyv66jf5svUbg"/>
+      <visibility xmi:id="_GO9r0EmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9r0UmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GO9r0kmoEeyv66jf5svUbg" name="cliente">
+        <modelElement href="agenciaViagem.uml#_ENNPYUmoEeyv66jf5svUbg"/>
+        <cardinality xmi:id="_GO9r00moEeyv66jf5svUbg" label="1" max="1" min="1"/>
+        <type xmi:id="_GO9r1EmoEeyv66jf5svUbg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GO9r1UmoEeyv66jf5svUbg" name="valor">
+        <modelElement href="agenciaViagem.uml#_ENN2cEmoEeyv66jf5svUbg"/>
+        <cardinality xmi:id="_GO9r1kmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+        <type xmi:id="_GO9r10moEeyv66jf5svUbg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GO9r2EmoEeyv66jf5svUbg" name="taxa">
+        <modelElement href="agenciaViagem.uml#_ENN2cUmoEeyv66jf5svUbg"/>
+        <cardinality xmi:id="_GO9r2UmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+        <type xmi:id="_GO9r2kmoEeyv66jf5svUbg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GO9r20moEeyv66jf5svUbg" name="destino">
+        <modelElement href="agenciaViagem.uml#_ENN2ckmoEeyv66jf5svUbg"/>
+        <cardinality xmi:id="_GO9r3EmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+        <type xmi:id="_GO9r3UmoEeyv66jf5svUbg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GO9r3kmoEeyv66jf5svUbg" name="toString">
+      <modelElement href="agenciaViagem.uml#_ENQSsEmoEeyv66jf5svUbg"/>
+      <stereotypes xmi:id="_GO9r30moEeyv66jf5svUbg" name="LegacyStyledElement">
+        <modelElement href="agenciaViagem.uml#_ENRg0UmoEeyv66jf5svUbg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_GO9r4EmoEeyv66jf5svUbg" name="Annotations">
+        <modelElement href="agenciaViagem.uml#_ENTWAEmoEeyv66jf5svUbg"/>
+      </stereotypes>
+      <visibility xmi:id="_GO9r4UmoEeyv66jf5svUbg" label="+"/>
+      <cardinality xmi:id="_GO9r4kmoEeyv66jf5svUbg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GO9r40moEeyv66jf5svUbg">
+        <modelElement href="agenciaViagem.uml#_ENRg0EmoEeyv66jf5svUbg"/>
+        <type xmi:id="_GO9r5EmoEeyv66jf5svUbg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

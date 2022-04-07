@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_BUk1YEmoEeyv66jf5svUbg" name="agenciaViagem">
+    <eAnnotations xmi:id="_D-lkkEmoEeyv66jf5svUbg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_D-mLoEmoEeyv66jf5svUbg" source="codegen">
+        <details xmi:id="_D-mLoUmoEeyv66jf5svUbg" key="codegenDirectory" value="/agenciaViagem/src"/>
+        <details xmi:id="_Est14EmoEeyv66jf5svUbg" key="AssociatedSourceCode" value="/agenciaViagem/src/agenciaViagem/Passagem.java;2526672718/1;/agenciaViagem/src/agenciaViagem/italoViana.java;1509763079/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_EMTQcEmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_EMT3gEmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_EMT3gUmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_EMT3gkmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_EMT3g0moEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_EMT3hEmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_EMUekEmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_EMUekUmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_EMVFoEmoEeyv66jf5svUbg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EMvVUEmoEeyv66jf5svUbg" name="agenciaViagem">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ENDeYEmoEeyv66jf5svUbg" name="Passagem">
+        <ownedAttribute xmi:id="_EN1hgEmoEeyv66jf5svUbg" name="destino">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_EN3WsEmoEeyv66jf5svUbg" name="valor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_EN39wEmoEeyv66jf5svUbg" name="taxa">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_EN5L4EmoEeyv66jf5svUbg" name="cliente">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EOS0gEmoEeyv66jf5svUbg" name="cadastrar" specification="_ENNPYEmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_EOS0gUmoEeyv66jf5svUbg" name="cliente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EOS0gkmoEeyv66jf5svUbg" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EOS0g0moEeyv66jf5svUbg" name="taxa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EOS0hEmoEeyv66jf5svUbg" name="destino">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.cliente = cliente;&#xD;
+		this.valor = valor;&#xD;
+		this.taxa = taxa;&#xD;
+		this.destino = destino;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EOWe4EmoEeyv66jf5svUbg" name="toString" specification="_ENQSsEmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_EOWe4UmoEeyv66jf5svUbg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (&quot;Dados do Passageiro: &quot; + this.cliente + &quot;; Destino: ,&quot; + this.destino + &quot;; Taxa: &quot; + this.taxa + &quot;; Valor: &quot; + this.valor);&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ENNPYEmoEeyv66jf5svUbg" name="cadastrar" method="_EOS0gEmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_ENNPYUmoEeyv66jf5svUbg" name="cliente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ENN2cEmoEeyv66jf5svUbg" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ENN2cUmoEeyv66jf5svUbg" name="taxa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ENN2ckmoEeyv66jf5svUbg" name="destino">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ENQSsEmoEeyv66jf5svUbg" name="toString" method="_EOWe4EmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_ENRg0EmoEeyv66jf5svUbg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ENXncEmoEeyv66jf5svUbg" name="italoViana">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EOXtAEmoEeyv66jf5svUbg" name="main" specification="_ENY1kEmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_EOXtAUmoEeyv66jf5svUbg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EOXtAkmoEeyv66jf5svUbg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ArrayList&lt;Passagem> lista = new ArrayList();&#xD;
+		&#xD;
+		Passagem usuario01 = new Passagem();&#xD;
+		Passagem usuario02 = new Passagem();&#xD;
+		Passagem usuario03 = new Passagem();&#xD;
+		Passagem usuario04 = new Passagem();&#xD;
+		&#xD;
+		usuario01.cadastrar(&quot;Jennifer Cruz&quot;, 100.0, 2.4, &quot;Madureira&quot;);&#xD;
+		usuario02.cadastrar(&quot;Karina Simões&quot;, 200.0, 2.4, &quot;Rio de Janeiro&quot;);&#xD;
+		usuario03.cadastrar(&quot;Wanessa Alves&quot;, 300.0, 2.4, &quot;Bahia&quot;);&#xD;
+		usuario04.cadastrar(&quot;Brenda Vialle&quot;, 300.0, 2.4, &quot;Angra dos Reis&quot;);&#xD;
+		&#xD;
+		lista.add(usuario01);&#xD;
+		lista.add(usuario02);&#xD;
+		lista.add(usuario03);&#xD;
+		lista.add(usuario04);&#xD;
+		&#xD;
+		for(int i = 0; i &lt; lista.size(); i++) {&#xD;
+			System.out.println(lista.get(i));	&#xD;
+		}&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ENY1kEmoEeyv66jf5svUbg" name="main" isStatic="true" method="_EOXtAEmoEeyv66jf5svUbg">
+          <ownedParameter xmi:id="_ENZcoEmoEeyv66jf5svUbg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ENZcoUmoEeyv66jf5svUbg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EM2qEEmoEeyv66jf5svUbg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_EM3RIEmoEeyv66jf5svUbg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ENqiYEmoEeyv66jf5svUbg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ENuz0EmoEeyv66jf5svUbg" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_D-p2AEmoEeyv66jf5svUbg">
+      <eAnnotations xmi:id="_D-vVkEmoEeyv66jf5svUbg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_D_CQgEmoEeyv66jf5svUbg" base_Package="_BUk1YEmoEeyv66jf5svUbg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ENRg0UmoEeyv66jf5svUbg" base_Element="_ENQSsEmoEeyv66jf5svUbg"/>
+  <UMLLabProfile:Annotations xmi:id="_ENTWAEmoEeyv66jf5svUbg" base_Element="_ENQSsEmoEeyv66jf5svUbg">
+    <annotations xmi:id="_ENT9EEmoEeyv66jf5svUbg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ENs-oEmoEeyv66jf5svUbg" base_Element="_ENqiYEmoEeyv66jf5svUbg"/>
+  <UMLLabProfile:Reference xmi:id="_ENxQEEmoEeyv66jf5svUbg" base_Element="_ENuz0EmoEeyv66jf5svUbg"/>
+</xmi:XMI>
